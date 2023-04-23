@@ -12,69 +12,111 @@
 </head>
 <body>
     <header class="home">
-        <img src="./img/logo.png" alt="logo-bk">
+        <img class="logo" src="./img/logo.png" alt="logo-bk">
         <nav class="nav">
-            <li>Início</li>
-            <li>Quem sou</li>
-            <li>Experiências</li>
-            <li>Projetos</li>
-            <li>Serviços</li>
-            <li>Conhecimentos</li>
+            <li>INÍCIO</li>
+            <li>QUEM SOU</li>
+            <li>EXPERIENCIAS</li>
+            <li>PROJETOS</li>
+            <li>SERVICOS</li>
+            <li>CONHECIMENTOS</li>
         </nav>
     </header>
 
-    <div>
-        Um breve resumo sobre mim com uma imagem lateral
-    </div>
-
-    <img>design bonito
-
-    <section>
-        <img> Foto minha
-        <h3>Quem sou</h3>
-        <h1>Tobias Amorim</h1>
-        <h3>Frontend Developer</h3>
-
-        <P>Meu nome é fulano.....</P>
-
-        <ul>
-            <li>Instagram</li>
-            <li>Linkedin</li>
-            <li>Discord</li>
-            <li>Github</li>
-        </ul>
+    <section class="grid-home">
+        <div class="box-home">
+            <h1 class="titulo-home">Ajudando empresas a construírem produtos digitais de forma moderna e de alta qualidade.</h1>
+            <p class="descricao-p">Uma mistura de Design, Desenvolvimento Frontend e habilidade profissional que vão destacar seu produto no mercado. </p>
+            <a><span>Instagram</span></a>
+        </div>
+        <div class="logo-home">
+        </div>
+    </section>
+    <section class="apresentacao">
+        <div class="sobre-mim">
+            <img class="code" src="./img/selfie-tobias.jpg">
+            <div class="resumo">
+                <h3>Quem sou</h3>
+                <h1>Tobias Amorim</h1>
+                <h3>Frontend Developer</h3>
+                <p>Olá! Meu nome é Tobias Amorim, tenho 25 anos, sou estudante e futuro desenvolvedor web e mobile. Entrei para a área de tecnologia em 2021 como aluno da Antonio Meneghetti Faculdade com o intuito de alcançar novos ares e ter oportunidades de me desenvolver profissionalmente. Quero ser um desenvolvedor e participar de grandes projetos que possam proporcionar grandes mudanças e inovações na área. É isso que me move! </p>
+                <ul class="redes">
+                    <a href="https://www.instagram.com/brtamorim/" target="_blank"><li class="icon-redes"><img src="img/instagram.png"></li></a>
+                    <a href="https://www.linkedin.com/in/amorim4dev/" target="_blank"><li class="icon-redes"><img src="img/linkedin.png"></li></a>
+                    <a href="https://www.instagram.com/brtamorim/" target="_blank"><li class="icon-redes"><img src="img/discord.png"></li></a>
+                    <a href="https://github.com/CodeAmorim" target="_blank"><li class="icon-redes"><img src="img/github.png"></li></a>
+                </ul>
+            </div>
+        </div>
     </section>
 
-    <section>
-        <H1>EXPERIENCIAS</H1>
+    <section class="experiencias">
+        <div class="box-lista">
+            <div class="titulo-experiencias">
+                <H1>EXPERIENCIAS</H1>
+            </div>
+            <div class="box-empregos">
+                <ul class="lista-empregos">
+                    <li><h1>Associação Ontoarte</h1></li>
+                    <li><h1>Postos DSL</h1></li>
+                    <li><h1>META</h1></li>
+                        <ul class="lista-empregos">
+                            <li><h2>Globo</h2></li>
+                            <li><h2>Banco FIBRA</h2></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
         <!--Lista vertical que altera o texto da direita quando clicado o item
         Bem parecida com a sessão de experiências de um currículo normal
         Cada item da lista é uma profissão específica-->
     </section>
 
-    <section>
-        <h1>PROJETOS</h1> <!--**centralizado**-->
-        <!--lista horizontal em blocos com cores diferentes e contendo
-        um projeto em cada bloco junto dos repositórios do github-->
+    <section class="container-projeto">
+        <h1 class="titulo-secao">Projetos<span class="ponto">.</span></h1>
+        <div class="box-projeto">
+            <div class="projeto"></div>
+            <div class="projeto"></div>
+            <div class="projeto"></div>
+        </div>
+        <a href="https://github.com/CodeAmorim?tab=repositories" target="_blank"><span><h3>Repositórios no GitHub</h3></span></a>
+    </section>
+
+    <section class="container-servico">
+        <h1 class="titulo-secao">Serviços<span class="ponto">.</span></h1><!--**centralizado**-->
+        <div class="box-servico">
+            <div class="servico">Desenvolvimento</div>
+            <div class="servico">UI/UX design</div>
+        </div>
+    </section>
+
+    <section class="container-conhecimento">
+        <div class="box-skill">
+            <h1 class="titulo-secao-tech">Conhecimentos</h1><!--**À ESQUERDA**-->
+            <p class="descricao-p">*passe o cursor do mouse no card para ler*</p>
+        </div>
+        <div class="skill-cards">
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+            <div class="skill"></div>
+        </div>
     </section>
 
     <section>
-        <h1>SERVIÇOS</h1> <!--**centralizado**-->
-        <ul>
-            <li>Desenvolvimento</li>
-            <li>Ui design</li>
-        </ul>
-    </section>
-
-    <section>
-        <h1>CONHECIMENTOS</h1> <!--**À ESQUERDA**-->
-        <!--*passe o cursor do mouse no card para ler*
-            Ícones das tecnologias em quadrados -->
-
-    </section>
-
-    <section>
-        <!--FOOTER COM ALGUMAS INFORMAÇÕES EXTRAS-->
+        <footer class="container-footer">
+            <div class="descricao-p">Copyright © 2023 <a href="http://www.pudim.com.br/" target="_blank">amorimcode.com</a> Todos os direitos reservados.</div>
+            <div class="descricao-p">Powered by</div>
+        </footer>
     </section>
 </body>
 </html>
